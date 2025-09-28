@@ -103,7 +103,71 @@ IAM (Identity and Access Management) is a global AWS service used to securely co
 
 - Authorization = Verifying what you can do (policies).
 
+# Step-by-step User , Group, Policy creation
 
+## Sign in
+
+- Sign in to the AWS Management Console using an admin account (not the root account). Go to Services → IAM.
+
+- Create a Group 
+
+- In IAM, go to User groups (or Groups) → Create group.
+
+- Give it a name (e.g., Developers).
+
+- Attach permissions: choose one or more AWS Managed policies (e.g., AmazonS3ReadOnlyAccess) or skip and attach later.
+
+- Click Create group.
+
+- Create a User
+
+- In IAM, go to Users → Add users.
+
+- Enter username (e.g., komal).
+
+- Select access type:
+
+- Programmatic access (for CLI/SDK) → creates Access Key ID + Secret Access Key.
+
+- AWS Management Console access → creates a console password.
+
+- You can select both if needed.
+
+- Click Next: Permissions.
+
+- Assign Permissions
+
+- Choose Add user to group and select the group you created (Developers).
+
+- Or attach policies directly to the user .
+
+- Click Next → optionally add tags → Create user.
+
+- Save credentials
+
+- On success, download the .csv or copy the Access Key ID and Secret Access Key shown. Secret key is shown only once — save it securely.
+
+- Enable Console Password Reset (if console access created)
+
+- If you created console access, choose whether you want to Require password reset at first login.
+
+- Enable MFA for the user (important)
+
+- IAM → Users → Select user → Security credentials → Manage MFA device → choose Virtual MFA device.
+
+- Scan QR with an authenticator app (Google Authenticator, Authy), enter two consecutive codes and Assign.
+
+- Test the user
+
+- Ask the user to sign in using the IAM console sign-in URL (account ID or alias) or test with AWS CLI after aws configure.
+
+- Optional: Create customer-managed policy
+
+- IAM → Policies → Create policy → use Visual editor or JSON → Review policy → Create → attach to group/user.
+
+- Cleanup (if needed)
+
+- To remove a user: detach policies, remove from groups, delete access keys, delete login profile, delete user.
 
 
 
