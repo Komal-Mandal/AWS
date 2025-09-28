@@ -103,7 +103,7 @@ IAM (Identity and Access Management) is a global AWS service used to securely co
 
 - Authorization = Verifying what you can do (policies).
 
-# Step-by-step User , Group, Policy creation
+# Step-by-step User , Group and Policy creation
 
 ## Sign in
 
