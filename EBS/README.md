@@ -58,7 +58,7 @@ This guide explains how to:
 
 - Now your EC2 is ready.
 
-##🔹 2. Create & Attach an EBS Volume
+## 🔹 2. Create & Attach an EBS Volume
 
 - Go to EC2 → Volumes → Create Volume.
 
@@ -80,7 +80,7 @@ This guide explains how to:
 
 - Snapshot will appear under Snapshots.
 
-##🔹 4. Create New Volume from Snapshot
+## 🔹 4. Create New Volume from Snapshot
 
 - Go to EC2 → Snapshots → Select Snapshot → Actions → Create Volume.
 
@@ -92,7 +92,7 @@ This guide explains how to:
 
 - Create the volume.
 
-##🔹 5. Attach the New Volume to EC2
+## 🔹 5. Attach the New Volume to EC2
 
 - Go to EC2 → Volumes → Select New Volume → Actions → Attach Volume.
 
