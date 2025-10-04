@@ -43,7 +43,8 @@
 
 - AWS will create an AMI (takes a few minutes).
 
-![alt text](image.png)
+<img width="1508" height="404" alt="Screenshot 2025-10-04 090048" src="https://github.com/user-attachments/assets/ac471041-6474-4603-81ac-ef34f3c2eddb" />
+
 
 ## 3. Launch New Instance from AMI
 
@@ -57,11 +58,15 @@
 
 - Now test2 will be an exact clone of test (same OS + software + configuration).
 
-![alt text](<Screenshot 2025-10-04 090658.png>)
+<img width="1527" height="303" alt="Screenshot 2025-10-04 090658" src="https://github.com/user-attachments/assets/c64fbb0b-f154-4c8d-a1d0-23446c56ec57" />
 
-![alt text](<Screenshot 2025-10-04 090723.png>)
+<img width="1260" height="356" alt="Screenshot 2025-10-04 090723" src="https://github.com/user-attachments/assets/ad236711-7b25-4e34-9f2a-a9530898a355" />
 
-![alt text](<Screenshot 2025-10-04 090818.png>)
+<img width="1501" height="362" alt="Screenshot 2025-10-04 090818" src="https://github.com/user-attachments/assets/95bed75b-9aa0-476f-9eba-968685540b61" />
+
+
+
+
 
 
 
