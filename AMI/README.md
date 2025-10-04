@@ -87,6 +87,9 @@ It defines the configuration you want, so you don’t have to re-enter details e
 
 - Storage (EBS volumes)
 
+  <img width="1537" height="396" alt="Screenshot 2025-10-04 094626" src="https://github.com/user-attachments/assets/f7959687-0eb5-409e-afe3-ce332bf20f87" />
+
+
 ## 🔹 AMI vs Launch Template
 
 - AMI → defines the OS + software snapshot.
@@ -98,6 +101,7 @@ It defines the configuration you want, so you don’t have to re-enter details e
 - Create an AMI when you want to freeze software setup.
 
 - Create a Launch Template when you want to reuse the same instance config again and again.
+
 
 
 
