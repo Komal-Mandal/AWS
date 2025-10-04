@@ -64,7 +64,40 @@
 
 <img width="1501" height="362" alt="Screenshot 2025-10-04 090818" src="https://github.com/user-attachments/assets/95bed75b-9aa0-476f-9eba-968685540b61" />
 
+## 🔹 What are EC2 Launch Templates?
 
+An EC2 Launch Template is like a blueprint for launching instances.
+It defines the configuration you want, so you don’t have to re-enter details every time.
+
+- Launch Template can include:
+
+- AMI ID (which image to use — Ubuntu, Amazon Linux, your custom AMI, etc.)
+
+- Instance type (t2.micro, t3.medium, etc.)
+
+- Key pair
+
+- Security groups
+
+- Network/subnet settings
+
+- User data scripts
+
+- Tags (like Name = test2)
+
+- Storage (EBS volumes)
+
+## 🔹 AMI vs Launch Template
+
+- AMI → defines the OS + software snapshot.
+
+- Launch Template → defines the full instance configuration (AMI, instance type, networking, tags, etc).
+
+ ### Best practice:
+
+- Create an AMI when you want to freeze software setup.
+
+- Create a Launch Template when you want to reuse the same instance config again and again.
 
 
 
