@@ -55,6 +55,9 @@ Amazon RDS (Relational Database Service) is a managed relational database servic
 
 - Note the endpoint.
 
+  <img width="1474" height="319" alt="Screenshot 2025-10-04 194237" src="https://github.com/user-attachments/assets/d4fea6fc-1e21-43c4-b092-452b545b74ac" />
+
+
 ## Step 2: Launch EC2 Instance for Website
 
 - Go to EC2 → Launch Instance.
@@ -86,19 +89,9 @@ sudo docker pull philippaul/node-mysql-app:02
 
 ```
 ## Step 4: Run Docker Container Connecting to RDS
+
 ```
-sudo
-
-docker run --rm -p 80:3000 
-
--e DB_HOST="your-db-hostname" 
-
--e DB_USER="your-db-username" 
-
--e DB_PASSWORD="your-db-password" 
-
--d philippaul/node-mysql-app:02
-
+sudo docker run --rm -p 80:3000  -e DB_HOST="your-db-hostname" -e DB_USER="your-db-username" -e DB_PASSWORD="your-db-password"  -d philippaul/node-mysql-app:02
 ```
 
 ## Step 5: Configure Security Groups
@@ -124,6 +117,9 @@ docker run --rm -p 80:3000
 - The Node.js app running in Docker should load
 
 - Any dynamic content that requires the database (RDS) should work automatically
+
+<img width="1905" height="804" alt="Screenshot 2025-10-04 223353" src="https://github.com/user-attachments/assets/b42e3e21-aa93-4117-87d6-f57671770ca6" />
+
 
 #### Important Notes
 
