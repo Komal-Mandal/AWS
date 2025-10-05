@@ -113,6 +113,12 @@ VPC: 10.0.0.0/16
 
 #### ✅ Your VPC is now created.
 
+<img width="1308" height="656" alt="Screenshot 2025-10-05 174136" src="https://github.com/user-attachments/assets/c00a3a82-b1f5-473b-9a55-d759a27ff164" />
+
+<img width="1548" height="330" alt="Screenshot 2025-10-05 174237" src="https://github.com/user-attachments/assets/165313d9-3134-42cc-a789-787482deaba4" />
+
+
+
 ### Step 2: Create Subnets
 
 - We’ll create one public and one private subnet.
@@ -132,6 +138,9 @@ VPC: 10.0.0.0/16
 
 - Two subnets are created.
 
+  <img width="1405" height="693" alt="Screenshot 2025-10-05 174743" src="https://github.com/user-attachments/assets/f448023d-2c58-4feb-87a5-bf1c28df0622" />
+
+
 ### Step 3: Create and Attach Internet Gateway (IGW)
 
 - Go to Internet Gateways → Create Internet Gateway.
@@ -143,6 +152,10 @@ VPC: 10.0.0.0/16
 - Select your IGW → Actions → Attach to VPC → select MyVPC → Attach.
 
 - The Internet Gateway is now connected to your VPC.
+
+ <img width="1901" height="679" alt="Screenshot 2025-10-05 174937" src="https://github.com/user-attachments/assets/c4e82a4e-4434-439c-b4ff-f1f6ca046791" />
+
+ <img width="1539" height="525" alt="Screenshot 2025-10-05 174953" src="https://github.com/user-attachments/assets/8e86affb-e7a5-44a4-a440-e0b97e4cf637" />
 
 ### Step 4: Create Route Tables
 🗺️ Create Public Route Table
@@ -206,6 +219,8 @@ VPC: 10.0.0.0/16
 
 - ✅ Your public subnet is now protected with a NACL.
 
+  <img width="1483" height="242" alt="Screenshot 2025-10-05 175145" src="https://github.com/user-attachments/assets/48e80b01-ef3f-42c2-a22d-ea0efe09bc6f" />
+
 ## 🚀 Launch an EC2 Instance in Your Custom VPC
 
 ### 🪜 Steps 
@@ -263,3 +278,4 @@ VPC: 10.0.0.0/16
 - Subnet ID → should belong to your VPC
 
 - ✅ This confirms that the EC2 instance is attached to your custom VPC.
+
